@@ -1,0 +1,34 @@
+body {
+  background: url("/imagens/foto\ de\ fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+h1 {
+  font: size 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(82, 82, 255);
+}
+.foto {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+#videodev {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+hr {
+  width: 60%;
+  background-color: rgb(183, 209, 156);
+  height: 15px;
+}
+h2 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(83, 83, 243);
+}

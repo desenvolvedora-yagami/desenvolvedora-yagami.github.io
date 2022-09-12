@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(180deg, #fecb01, black);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+}
+hr {
+  background-color: black;
+  height: 10px;
+  width: 50%;
+  border: none;
+}
+div {
+  background-color: black;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 30px;
+  width: 50%;
+}
+h2 {
+  color: white;
+  display: inline;
+  font-size: 35px;
+  font-weight: 700;
+}
+span {
+  color: #febe01;
+  font-size: 35px;
+  display: inline;
+  font-weight: 700;
+}
+p {
+  color: #b2b2b2;
+  display: inline;
+  font-size: 20px;
+}
+a {
+  background-color: #febe01;
+  color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a:hover {
+  background: black;
+  color: #febe01;
+  border: 1px solid #febe01;
+}
+span .ano {
+  font-size: 20px;
+}

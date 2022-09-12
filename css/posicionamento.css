@@ -1,0 +1,88 @@
+body {
+  background: rgb(255, 255, 255);
+  margin-top: 200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ scroll-behavior: smooth;
+ scroll-padding-top: 150px;
+}
+#teste {
+  width: 800px;
+  border: 1px solid black;
+  margin: 100px auto;
+  padding: 50px;
+  background-color: orange;
+  position: relative;
+}
+#teste p {
+  font-size: 40px;
+  font-weight: 600;
+}
+#teste span {
+  background: rgb(255, 0, 0);
+  padding: 20px 40px;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  top: -30px;
+  border-radius: 1px;
+  border: solid rgba(0, 0, 0, 0.382);
+}
+.topo {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background: rgb(25, 25, 25);
+  justify-content: space-around;
+  z-index: 1;
+  scroll
+}
+img {
+  max-width: 100%;
+}
+
+.topo section {
+  width: 20%;
+}
+.topo nav {
+  display: flex;
+  color: white;
+  width: 60%;
+  justify-content: flex-end;
+
+  display: flex;
+  align-items: center;
+}
+.topo section img {
+  width: 40%;
+}
+.topo nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+.topo nav ul li {
+  background: orange;
+  padding: 20px 40px;
+  font-weight: 600px;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.topo nav ul li:hover {
+  background: white;
+  color: orange;
+}
+.topo nav ul li a{
+  text-decoration:none ;
+  color: white;
+  transition: 1s;
+}
